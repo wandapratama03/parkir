@@ -22,7 +22,7 @@ $pengaturan = query("SELECT * FROM tb_pengaturan")[0];
 $Token_bot  = $pengaturan["Token_bot"];
 
 //Zona Waktu
-$Zona = 'Asia/Makassar'; //Silakan disesuaikan dengan zona waktu wilayah masing-masing
+$Zona = 'Asia/Jakarta'; //Silakan disesuaikan dengan zona waktu wilayah masing-masing
 date_default_timezone_set($Zona);
 
   if ($Zona == 'Asia/Jakarta') { //WIB
